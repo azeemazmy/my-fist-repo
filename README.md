@@ -18,7 +18,7 @@ This project turns an old PC into a file server and web server. It uses Samba fo
 
 ## Key Steps
 
-1.  [click] (**System Setup**) — Installed Ubuntu Server on the old PC and set up partitions and file systems.
+1. **System Setup** — Installed Ubuntu Server on the old PC and set up partitions and file systems.
 2. **File Server Configuration** — Set up Samba so both Windows and Linux devices can access shared files.
 3. **Web Server Configuration** — Installed and configured Apache to serve a static website and test web app.
 4. **Network Configuration** — Connected all devices with a network switch for stable, fast access.
