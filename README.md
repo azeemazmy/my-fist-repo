@@ -121,8 +121,8 @@ This guide covers the actual installation process for Ubuntu Server, from creati
 1. After reboot, log in using the username and password created earlier.
 2. Update the system before doing anything else:
    
-   sudo apt update
-   sudo apt upgrade -y
+   ```sudo apt update```
+  ``` sudo apt upgrade -y```
    
 
 ## 13. Set a Static IP (Recommended)
