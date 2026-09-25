@@ -2,7 +2,8 @@
 
 Repurposing an old PC into a working file server and web server using Ubuntu Server.
 
-**Duration:** 1 year
+**Duration:** 1 year.
+
 **Technologies:** Ubuntu Server, Apache, Samba, Networking, Old PC hardware
 
 ## Overview
