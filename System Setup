@@ -134,4 +134,4 @@ This guide covers the actual installation process for Ubuntu Server, from creati
 
 ## Outcome
 
-At this point, Ubuntu Server is fully installed, updated, and reachable on the network with a fixed IP address and SSH access — ready for the next step of installing Samba and 
+At this point, Ubuntu Server is fully installed, updated, and reachable on the network with a fixed IP address and SSH access — ready for the next step of installing Samba  
