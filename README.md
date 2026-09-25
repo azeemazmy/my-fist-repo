@@ -308,7 +308,9 @@ smbclient //<server-ip-address>/Shared -U sambauser
 
 Or mount it directly:
 
-```sudo mount -t cifs //<server-ip-address>/Shared /mnt/point -o username=sambauser```
+```
+sudo mount -t cifs //<server-ip-address>/Shared /mnt/point -o username=sambauser
+```
 
 
 ## Outcome
