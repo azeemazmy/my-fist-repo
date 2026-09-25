@@ -12,7 +12,7 @@ This project turns an old PC into a file server and web server. It uses Samba fo
 
 ## Objectives
 
-- **[File Server:]**(azeemazmy/old-pc-server-setup/System Setup.md) Set up Samba on Ubuntu Server for file sharing across devices on the local network.
+- **File Server:** Set up Samba on Ubuntu Server for file sharing across devices on the local network.
 - **Web Server:** Configure Apache to host a website for testing and showcasing web apps.
 - **Networking:** Use a router and switch to build a stable local network for file transfers and device communication.
 
