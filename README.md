@@ -57,7 +57,7 @@ This guide covers the actual installation process for Ubuntu Server, from creati
    
 3. Write the ISO to the USB (replace sdX with your USB device, and be careful — this erases the drive):
    
-   '''sudo dd if=ubuntu-server.iso of=/dev/sdX bs=4M status=progress'''
+   ```sudo dd if=ubuntu-server.iso of=/dev/sdX bs=4M status=progress```
    
 
 ## 3. Boot From the USB
