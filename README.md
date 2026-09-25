@@ -136,6 +136,7 @@ This guide covers the actual installation process for Ubuntu Server, from creati
    sudo nano /etc/netplan/00-installer-config.yaml
    
 3. Set a static IP, gateway, and DNS, for example:
+   ```
    yaml
    network:
      version: 2
@@ -146,10 +147,10 @@ This guide covers the actual installation process for Ubuntu Server, from creati
          gateway4: 192.168.1.1
          nameservers:
            addresses: [8.8.8.8, 8.8.4.4]
-   
+   ```
 4. Apply the changes:
    
-   sudo netplan apply
+   ``` sudo netplan apply ```
    
 
 ## 14. Confirm Everything Works
@@ -157,10 +158,11 @@ This guide covers the actual installation process for Ubuntu Server, from creati
 1. Test internet access:
    
    ping google.com
+   ``` ping 8.8.8.8 ```
    
-2. Test SSH access from another computer on the network:
+3. Test SSH access from another computer on the network:
    
-   ssh username@192.168.1.100
+   ``` ssh username@192.168.1.100 ```
    
 
 ## Outcome
