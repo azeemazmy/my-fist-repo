@@ -2,8 +2,8 @@
 
 Repurposing an old PC into a working file server and web server using Ubuntu Server.
 
-*Duration:* 1 year
-*Technologies:* Ubuntu Server, Apache, Samba, Networking, Old PC hardware
+**Duration:** 1 year
+**Technologies:** Ubuntu Server, Apache, Samba, Networking, Old PC hardware
 
 ## Overview
 
@@ -11,17 +11,17 @@ This project turns an old PC into a file server and web server. It uses Samba fo
 
 ## Objectives
 
-- *File Server:* Set up Samba on Ubuntu Server for file sharing across devices on the local network.
-- *Web Server:* Configure Apache to host a website for testing and showcasing web apps.
-- *Networking:* Use a router and switch to build a stable local network for file transfers and device communication.
+- **File Server:** Set up Samba on Ubuntu Server for file sharing across devices on the local network.
+- **Web Server:** Configure Apache to host a website for testing and showcasing web apps.
+- **Networking:** Use a router and switch to build a stable local network for file transfers and device communication.
 
 ## Key Steps
 
-1. *System Setup* — Installed Ubuntu Server on the old PC and set up partitions and file systems.
-2. *File Server Configuration* — Set up Samba so both Windows and Linux devices can access shared files.
-3. *Web Server Configuration* — Installed and configured Apache to serve a static website and test web app.
-4. *Network Configuration* — Connected all devices with a network switch for stable, fast access.
-5. *Security* — Added basic security: firewall setup and access control for file and web services.
+1. **System Setup** — Installed Ubuntu Server on the old PC and set up partitions and file systems.
+2. **File Server Configuration** — Set up Samba so both Windows and Linux devices can access shared files.
+3. **Web Server Configuration** — Installed and configured Apache to serve a static website and test web app.
+4. **Network Configuration** — Connected all devices with a network switch for stable, fast access.
+5. **Security** — Added basic security: firewall setup and access control for file and web services.
 
 ## Outcomes
 
@@ -41,15 +41,15 @@ This guide covers the actual installation process for Ubuntu Server, from creati
 
 ## 2. Create a Bootable USB Drive
 
-*On Windows:*
-1. Download and open *Rufus* (free tool).
+**On Windows:**
+1. Download and open **Rufus** (free tool).
 2. Insert a USB drive (8GB or larger). All data on it will be erased.
 3. In Rufus, select the USB drive under "Device."
 4. Click "Select" and choose the Ubuntu Server ISO file.
 5. Leave other settings as default and click "Start."
 6. Wait for the process to finish, then safely eject the USB.
 
-*On Linux/Mac:*
+**On Linux/Mac:**
 1. Open a terminal.
 2. Find the USB device name using:
    
@@ -69,9 +69,9 @@ This guide covers the actual installation process for Ubuntu Server, from creati
 
 ## 4. Start the Installer
 
-1. On the first screen, select your *language*.
-2. Choose your *keyboard layout* (or let it auto-detect).
-3. Select *"Install Ubuntu Server"* (not the cloud image option).
+1. On the first screen, select your **language**.
+2. Choose your **keyboard layout** (or let it auto-detect).
+3. Select **"Install Ubuntu Server"** (not the cloud image option).
 
 ## 5. Network Configuration
 
@@ -86,23 +86,23 @@ This guide covers the actual installation process for Ubuntu Server, from creati
 
 ## 7. Storage Configuration (Partitioning)
 
-1. Choose *"Custom storage layout"* instead of the guided option, to control partitioning manually.
+1. Choose **"Custom storage layout"** instead of the guided option, to control partitioning manually.
 2. Select the disk to install on.
 3. Create the following partitions:
-   - *Root partition (/)* — main OS partition (e.g. 20–30GB).
-   - *Swap partition* — typically equal to or half of your RAM size.
-   - *Separate partition for shared files* (e.g. /data or /srv) — for files and web content, kept apart from the OS.
-4. Format all partitions as *ext4*.
+   - **Root partition (/)** — main OS partition (e.g. 20–30GB).
+   - **Swap partition** — typically equal to or half of your RAM size.
+   - **Separate partition for shared files** (e.g. /data or /srv) — for files and web content, kept apart from the OS.
+4. Format all partitions as **ext4**.
 5. Confirm and apply the changes. This will erase the disk.
 
 ## 8. Profile Setup
 
-1. Enter your *name, a **server name* (hostname), a *username, and a **password*.
+1. Enter your **name**, a **server name** (hostname), a **username**, and a **password**.
 2. This account will have sudo (admin) privileges.
 
 ## 9. SSH Setup
 
-1. When prompted, check the box for *"Install OpenSSH server."*
+1. When prompted, check the box for **"Install OpenSSH server."**
 2. This lets you manage the server remotely later instead of needing a monitor and keyboard connected.
 
 ## 10. Featured Server Snaps (Optional Software)
@@ -114,7 +114,7 @@ This guide covers the actual installation process for Ubuntu Server, from creati
 
 1. The installer copies files and sets up the system. This can take several minutes.
 2. Once done, remove the USB drive when prompted.
-3. Select *"Reboot Now."*
+3. Select **"Reboot Now."**
 
 ## 12. First Login
 
@@ -165,4 +165,4 @@ This guide covers the actual installation process for Ubuntu Server, from creati
 
 ## Outcome
 
-At this point, Ubuntu Server is fully installed, updated, and reachable on the network with a fixed IP address and SSH access — ready for the next step of installing Samba  
+"At this point, Ubuntu Server is fully installed, updated, and reachable on the network with a fixed IP address and SSH access — ready for the next step of installing Samba"  
