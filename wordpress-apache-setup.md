@@ -40,9 +40,17 @@ sudo mysql -u root -p
 Inside the MySQL prompt, create the database and user (replace `yourpassword` with a strong password):
 ```sql
 CREATE DATABASE wordpress;
+```
+```
 CREATE USER 'wpuser'@'localhost' IDENTIFIED BY 'yourpassword';
+```
+```
 GRANT ALL PRIVILEGES ON wordpress.* TO 'wpuser'@'localhost';
+```
+```
 FLUSH PRIVILEGES;
+```
+```
 EXIT;
 ```
 
